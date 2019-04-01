@@ -114,3 +114,30 @@ $bar-spacing: 11px;
 		background: rgba(255, 255, 255, 0); 
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+
+	nav {
+		.slide-toggle { 
+			color: black !important;
+		}
+		.slide-toggle {
+			transform: scale(0.8);
+			position: fixed;
+			top: 0;
+			left: 0;
+			background: #fff;
+			padding: 10px 18px 0px 18px;
+			z-index: 999;
+		}
+	}
+	.hamburger-menu, .hamburger-menu:after, .hamburger-menu:before {
+		background-color: black;
+	}
+
+	.menu-inner {
+		width: 300px !important;
+		text-align: center;
+	}
+  }
